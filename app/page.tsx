@@ -63,7 +63,7 @@ export default function Home() {
   };
 
   return (
-    <main className="h-screen w-screen bg-black p-8">
+    <main className="h-screen w-screen bg-[#050505] p-8">
 
       {!started && (
         <div className="fixed inset-0 flex items-center justify-center bg-black z-50">
@@ -87,7 +87,7 @@ export default function Home() {
         <div className="h-full w-full overflow-hidden rounded-3xl">
           <Carousel
             plugins={[plugin.current]}
-            className="h-full w-full"
+            className="h-full w-full -translate-y-10"
           >
             <CarouselContent className="h-screen">
               {slides.map((slide, index) => (
