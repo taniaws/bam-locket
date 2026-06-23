@@ -87,7 +87,7 @@ export default function Home() {
         <div className="h-full w-full overflow-hidden rounded-3xl">
           <Carousel
             plugins={[plugin.current]}
-            className="h-full w-full -translate-y-10"
+            className="h-full w-full -translate-y-14"
           >
             <CarouselContent className="h-screen">
               {slides.map((slide, index) => (
