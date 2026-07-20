@@ -33,6 +33,13 @@ const slides = [
   { type: "image", src: "/memories/22.jpg" },
   { type: "image", src: "/memories/23.jpg" },
   { type: "image", src: "/memories/24.jpg" },
+  { type: "image", src: "/memories/25.jpg" },
+  { type: "image", src: "/memories/26.jpg" },
+  { type: "image", src: "/memories/27.jpg" },
+  { type: "image", src: "/memories/28.jpg" },
+  { type: "image", src: "/memories/29.jpg" },
+  { type: "image", src: "/memories/30.jpg" },
+  { type: "image", src: "/memories/31.jpg" }
 ];
 
 export default function Home() {
